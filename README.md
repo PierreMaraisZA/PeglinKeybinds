@@ -9,11 +9,9 @@ Rebind Peglin's keyboard and controller controls from inside the game, with butt
 - **Keyboard and controller side by side.** Every action has a keyboard button and a controller button showing its current bindings, each with its button prompt icon. With no controller plugged in, the controller column shows the game's default pad buttons, greyed out.
 - **Plain names, in sections.** Actions are grouped into Gameplay, Menus and Loadout & Encirclepedia, with names like "Aim Left" and "Next Target" in place of the game's internal ones.
 - **Works the way Options does.** Move with the mouse, arrow keys, d-pad or stick. Select a binding for Replace, Add (keep the current keys and add another, like the game's three keys for Fire), Default (this binding only) or Unbind. Back and Reset sit at the bottom, where the Options buttons are. Back also closes with the usual back button; Reset has no button shortcut, so you can't hit it by accident, and puts a whole column back to defaults.
-- **Your Pause key closes Options on the main menu**, as it does in Controls (the game itself only closes it there with Back). It follows whatever key Pause is bound to.
 - **Ctrl + F5 opens it from the main menu** (it opens Options first). During a run the pause menu has no Options screen, so it does nothing there — change controls before starting a run. Change the key with `OpenControlsKey`.
 - **Other mods' keys too.** A Mods section lists the key settings of every installed BepInEx mod, with the mod's own description of what each is for. Changes save straight into that mod's config. Developer and testing keys (debug menus, scene reloads, test tools) are left out.
 - **Clash warnings.** A binding turns amber when its key is also used by a mod, or by another game action that doesn't share it in the game's defaults (say Esc on both Pause and Discard Orb), and its pop-up says who else uses it. Keys the game shares on purpose, like Enter for Select and Fire, aren't flagged.
-- **Mouse buttons.** A Mouse section shows what Left, Right and Middle Click do (Right Click is Discard Orb by default; pick Back under Menus to make it back out of menus). Pick a button to browse the game's actions with Previous and Next, then Assign one or Unbind. Left click always keeps its normal clicking and aiming.
 - **Button prompts match your bindings.** The game's on-screen prompts (Accept, Back, tab switching and the rest) show the key or button you've actually bound. If the game has no icon for that key, the mod draws one in the same pixel style.
 - **Saved per controller model.** Bindings stick across restarts and apply to any controller of the same model, even after you unplug it and plug it back in.
 - **Reset to defaults** for the keyboard, for controllers or for the mouse, from the Reset button.
@@ -22,7 +20,7 @@ Rebind Peglin's keyboard and controller controls from inside the game, with butt
 
 - **Shared keys stay shared.** Peglin uses some keys for both a menu action and a gameplay action (Enter is both Menu Select and Fire / Confirm). Rebinding one doesn't change the other, so rebind both if you want them to move together.
 - **Single keys only.** Combos like Ctrl + Right Arrow can't be recorded. Changing one replaces it with a single key.
-- **A few keys are fixed in the game itself** and can't be rebound by any mod: left click (fire, aim and clicking menus), Ctrl+C to copy a seed, and the mouse wheel for stopping scrolling text. In the Mouse section, assigning an action to Left Click adds it on top of the normal click.
+- **A few keys are fixed in the game itself** and can't be rebound by any mod: left click (fire, aim and clicking menus), Ctrl+C to copy a seed, and the mouse wheel for stopping scrolling text.
 - **Some mods read their keys only at startup.** If a mod key change doesn't take effect, restart the game. Mods that keep their keys outside their main BepInEx config don't show up.
 
 ## Installation
