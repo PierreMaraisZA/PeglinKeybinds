@@ -1,0 +1,30 @@
+# Build output
+bin/
+obj/
+dist/
+
+# Editors and IDEs
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Never commit the game's DLLs (they belong to the game's developers) or built mod DLLs
+*.dll
+
+# Local release-note drafts
+RELEASE_NOTES.md
+
+# Local test runs: screenshots, save backups and internal test briefs
+.testshots/
+.gamesave_backup/
+*.orig
+IN_GAME_TEST_PROMPT.md
+SUBAGENT_GAME_TEST_PROMPT.md
+

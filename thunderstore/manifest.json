@@ -1,0 +1,9 @@
+{
+  "name": "PeglinKeybinds",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/PierreMaraisZA/PeglinKeybinds",
+  "description": "Rebind keyboard and controller controls from a Controls row in the Options menu. Button prompts follow your bindings.",
+  "dependencies": [
+    "BepInEx-BepInExPack_Peglin-5.4.2100"
+  ]
+}
